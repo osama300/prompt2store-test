@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "createdAt": "2026-11-06T18:41:38.340Z",
-  "updatedAt": "2026-11-06T19:21:03.353Z",
+  "updatedAt": "2026-11-06T19:21:18.250Z",
   "project": {
     "name": "habit_streaks",
     "displayName": "Habit Streaks",
@@ -56,7 +56,7 @@
     },
     "ship": {
       "status": "in_progress",
-      "updatedAt": "2026-11-06T19:21:03.353Z",
+      "updatedAt": "2026-11-06T19:21:18.250Z",
       "note": "Preparing repository"
     },
     "store": {
@@ -73,8 +73,11 @@
       }
     },
     "github": {
-      "connected": false,
-      "details": {}
+      "connected": true,
+      "verifiedAt": "2026-11-06T19:21:17.599Z",
+      "details": {
+        "login": "osama300"
+      }
     },
     "play": {
       "connected": false,
@@ -597,6 +600,24 @@
     },
     {
       "at": "2026-11-06T19:21:03.353Z",
+      "level": "info",
+      "source": "stage",
+      "message": "ship → in_progress: Preparing repository"
+    },
+    {
+      "at": "2026-11-06T19:21:06.847Z",
+      "level": "error",
+      "source": "stage",
+      "message": "ship → failed: The repository is private and Codemagic has no access to it."
+    },
+    {
+      "at": "2026-11-06T19:21:06.849Z",
+      "level": "warn",
+      "source": "ship_test_build",
+      "message": "Blocked: The repository is private and Codemagic has no access to it."
+    },
+    {
+      "at": "2026-11-06T19:21:18.250Z",
       "level": "info",
       "source": "stage",
       "message": "ship → in_progress: Preparing repository"
