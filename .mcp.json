@@ -1,0 +1,1 @@
+{"mcpServers":{"prompt-to-store":{"type":"stdio","command":"node","args":["/home/user/prompt2store/dist/cli.js","mcp"]}}}

@@ -1,0 +1,69 @@
+{
+  "id": "chk_7a93644c52",
+  "startedAt": "2026-11-09T12:34:33.830Z",
+  "finishedAt": "2026-11-09T12:34:46.603Z",
+  "passed": true,
+  "items": [
+    {
+      "name": "dependencies",
+      "status": "passed",
+      "summary": "flutter pub get OK",
+      "details": [],
+      "durationMs": 775
+    },
+    {
+      "name": "analyze",
+      "status": "passed",
+      "summary": "0 errors, 0 warnings, 0 infos",
+      "details": [],
+      "durationMs": 3460
+    },
+    {
+      "name": "format",
+      "status": "warning",
+      "summary": "Some files are not formatted (run `dart format lib test`)",
+      "details": [
+        "Changed lib/main.dart",
+        "Changed lib/src/habit.dart",
+        "Changed lib/src/repository.dart",
+        "Changed lib/src/screens.dart",
+        "Changed lib/src/store.dart",
+        "Changed test/p2s_screenshots_test.dart",
+        "Formatted 7 files (6 changed) in 0.04 seconds."
+      ],
+      "durationMs": 96
+    },
+    {
+      "name": "tests",
+      "status": "passed",
+      "summary": "5 passed, 0 failed, 0 skipped",
+      "details": [],
+      "durationMs": 3781
+    },
+    {
+      "name": "screenshots",
+      "status": "passed",
+      "summary": "4 screenshots rendered",
+      "details": [
+        ".prompt-to-store/checks/screens/phone/01_today.png",
+        ".prompt-to-store/checks/screens/phone/02_empty.png",
+        ".prompt-to-store/checks/screens/phone/03_add.png",
+        ".prompt-to-store/checks/screens/phone/04_detail.png"
+      ],
+      "durationMs": 4647
+    },
+    {
+      "name": "build",
+      "status": "skipped",
+      "summary": "No Android SDK locally — the full build runs on Codemagic. Compile errors were checked by analyze.",
+      "details": []
+    }
+  ],
+  "screenshots": [
+    "checks/screens/phone/01_today.png",
+    "checks/screens/phone/02_empty.png",
+    "checks/screens/phone/03_add.png",
+    "checks/screens/phone/04_detail.png"
+  ],
+  "fingerprint": "a2e98ce1bdb8aeb0"
+}
